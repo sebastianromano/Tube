@@ -7,9 +7,10 @@ struct Tube: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .frame(minWidth: 300, idealWidth: 300, maxWidth: .infinity, minHeight: 300, idealHeight: 300, maxHeight: .infinity)
+            SwiftUIView()
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//                .frame(minWidth: 300, idealWidth: 300, maxWidth: .infinity, minHeight: 300, idealHeight: 300, maxHeight: .infinity)
         }.windowStyle(.hiddenTitleBar)
     }
 }

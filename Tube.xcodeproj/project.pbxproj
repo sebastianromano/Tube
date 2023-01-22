@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C66F3662953E0060049F6F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F3652953E0060049F6F2 /* ContentView.swift */; };
+		2C05D269297DCE47002B3C61 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D268297DCE47002B3C61 /* SwiftUIView.swift */; };
+		2C05D26B297DD879002B3C61 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C05D26A297DD879002B3C61 /* Window.xib */; };
+		2C05D26F297DDBF2002B3C61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C05D26E297DDBF2002B3C61 /* MainMenu.xib */; };
 		2C8BFBA82954898E00B9ADDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8BFBA72954898E00B9ADDD /* AppDelegate.swift */; };
 		2CB43ACF2953C17A007DBB99 /* TubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB43ACE2953C17A007DBB99 /* TubeApp.swift */; };
 		2CB43AD32953C17B007DBB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB43AD22953C17B007DBB99 /* Assets.xcassets */; };
@@ -38,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C66F3652953E0060049F6F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C05D268297DCE47002B3C61 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		2C05D26A297DD879002B3C61 /* Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		2C05D26E297DDBF2002B3C61 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		2C8BFBA72954898E00B9ADDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB43ACB2953C17A007DBB99 /* Tube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB43ACE2953C17A007DBB99 /* TubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeApp.swift; sourceTree = "<group>"; };
@@ -106,12 +110,14 @@
 				2CB43ACE2953C17A007DBB99 /* TubeApp.swift */,
 				2CB43AFE2953C1CF007DBB99 /* WebView.swift */,
 				2CB43AD72953C17B007DBB99 /* Persistence.swift */,
-				2C66F3652953E0060049F6F2 /* ContentView.swift */,
 				2C8BFBA72954898E00B9ADDD /* AppDelegate.swift */,
 				2CB43AD22953C17B007DBB99 /* Assets.xcassets */,
 				2CB43ADC2953C17B007DBB99 /* Tube.entitlements */,
 				2CB43AD92953C17B007DBB99 /* Tube.xcdatamodeld */,
 				2CB43AD42953C17B007DBB99 /* Preview Content */,
+				2C05D268297DCE47002B3C61 /* SwiftUIView.swift */,
+				2C05D26A297DD879002B3C61 /* Window.xib */,
+				2C05D26E297DDBF2002B3C61 /* MainMenu.xib */,
 			);
 			path = Tube;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 			files = (
 				2CB43AD62953C17B007DBB99 /* Preview Assets.xcassets in Resources */,
 				2CB43AD32953C17B007DBB99 /* Assets.xcassets in Resources */,
+				2C05D26B297DD879002B3C61 /* Window.xib in Resources */,
+				2C05D26F297DDBF2002B3C61 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8BFBA82954898E00B9ADDD /* AppDelegate.swift in Sources */,
+				2C05D269297DCE47002B3C61 /* SwiftUIView.swift in Sources */,
 				2CB43AD82953C17B007DBB99 /* Persistence.swift in Sources */,
-				2C66F3662953E0060049F6F2 /* ContentView.swift in Sources */,
 				2CB43AFF2953C1CF007DBB99 /* WebView.swift in Sources */,
 				2CB43ACF2953C17A007DBB99 /* TubeApp.swift in Sources */,
 				2CB43ADB2953C17B007DBB99 /* Tube.xcdatamodeld in Sources */,
